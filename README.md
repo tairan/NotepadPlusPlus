@@ -2,7 +2,7 @@
 
 ## REQUIREMENT ##
 
->= Notepad++ v6.2
+&gt;= Notepad++ v6.2
 
 ## SETUP ##
 

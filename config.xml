@@ -13,16 +13,16 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="yes" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="439" y="260" width="955" height="651" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="327" y="180" width="955" height="651" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="yes" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="0" whiteSpaceShow="show" eolShow="hide" lineWrapMethod="aligned" zoom2="0" borderWidth="2" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="yes" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="0" whiteSpaceShow="show" eolShow="hide" lineWrapMethod="aligned" zoom2="1" borderWidth="2" />
         <!-- For the secodary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box" -->
         <GUIConfig name="Auto-detection">yes</GUIConfig>
-        <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
+        <GUIConfig name="CheckHistoryFiles">yes</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
         <GUIConfig name="RememberLastSession">no</GUIConfig>
         <!--
@@ -68,7 +68,7 @@
 						3 : bottom
 						>= 4 : undocked -> FloatingWindow id
 			-->
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20121123">no</GUIConfig>
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20121208">no</GUIConfig>
         <GUIConfig name="MaitainIndent">yes</GUIConfig>
         <GUIConfig name="MRU">yes</GUIConfig>
         <GUIConfig name="URL">0</GUIConfig>
@@ -84,7 +84,8 @@
         <GUIConfig name="titleBar" short="no" />
         <GUIConfig name="stylerTheme" path="C:\Program Files (x86)\Notepad++\themes\Solarized.xml" />
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="200" rightWidth="109" topHeight="200" bottomHeight="283">
+        <GUIConfig name="DockingManager" leftWidth="200" rightWidth="238" topHeight="200" bottomHeight="647">
+            <PluginDlg pluginName="NPPJSONViewer.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Snippets" id="-1" curr="1" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
@@ -96,16 +97,16 @@
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+        <Find name="state" />
+        <Find name="status" />
+        <Find name="Error" />
+        <Find name="theme" />
+        <Find name="read" />
         <Find name="203.208.46" />
         <Find name="46." />
         <Find name="47." />
         <Find name=".46." />
         <Find name="true" />
-        <Find name="IsFailed" />
-        <Find name="false" />
-        <Find name="54" />
-        <Find name="error" />
-        <Find name="other" />
         <Replace name="203.208.47" />
         <Replace name="47." />
         <Replace name="46." />
@@ -117,23 +118,7 @@
         <Replace name="* " />
         <Replace name="*" />
     </FindHistory>
-    <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="D:\workspace\TFS_Deployment\04_CMD\MCSF\PyCM\uih\cm\log\__init__.py" />
-        <File filename="D:\workspace\TFS_Deployment\04_CMD\MCSF\PyCM\uih\cm\__init__.py" />
-        <File filename="D:\workspace\TFS_Deployment\04_CMD\MCSF\PyCM\uih\__init__.py" />
-        <File filename="D:\workspace\TFS_Deployment\04_CMD\MCSF\PyCM\setup.py" />
-        <File filename="D:\workspace\TFS_Deployment\CM_Tools\PermissionsReport\Common\SharedAssemblyInfo.cs" />
-        <File filename="D:\wwwroot\example\helloworld.html" />
-        <File filename="D:\Scripts\argtest.py" />
-        <File filename="D:\wwwroot\source\_posts\2012-11-16-.md" />
-        <File filename="D:\wwwroot\source\_posts\2012-10-18-goodbye-my-lover.md" />
-        <File filename="C:\Users\tairan.wang\Documents\Visual Studio 2010\Projects\ConsoleApplication7\ConsoleApplication7\bin\Debug\test.py" />
-        <File filename="E:\Download.bat" />
-        <File filename="D:\workspace\Ruby\greeter.rb" />
-        <File filename="C:\Python27\Lib\multiprocessing\pool.py" />
-        <File filename="D:\workspace\TFS_Deployment\CM_Tools\TfsBuildInfo\TfsBuildInfo\bin\Debug\build.json" />
-        <File filename="D:\workspace\Ruby\monkeypatch.rb" />
-    </History>
+    <History nbMaxFile="15" inSubMenu="no" customLength="-1" />
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
